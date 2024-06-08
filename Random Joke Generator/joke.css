@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fab22e;
+    
+}
+
+.jokewin
+{
+    
+    display: flex;
+    width: 70vw;
+    height: 80vh;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #171721;
+}
+.Random-joke-text,
+.setup,
+.delivery
+{
+    display: flex;
+    padding: 10px;
+    color: white;
+    font-family: 'poppins', 'sans-serif';
+    text-align: center;
+    
+    margin: 10px;
+}
+
+
+
+.get-random
+{
+    display: flex;
+    background-color: #fab22e;
+    font-family: 'poppins';
+    border: none;
+    color: #171721;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding: 8px 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}

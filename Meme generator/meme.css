@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+    position: relative;
+}
+
+.container-meme
+{
+    position: absolute;
+    top:50%;
+    min-width : 300px;
+    min-height : 300px;
+    background-color: white;
+    left: 50%; 
+    transform: translate(-50%,50%);
+    
+}
